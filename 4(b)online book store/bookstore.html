@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        header {
+            background: navy;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        input {
+            padding: 8px;
+        }
+
+        nav {
+            background: lightblue;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .banner {
+            background: #ffe0b2;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .books {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .book {
+            background: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+
+        footer {
+            background: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .books {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>📚 Book World</h2>
+    <input type="text" placeholder="Search books...">
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Books</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="banner">
+    <h1>Welcome to Book World</h1>
+    <p>Discover your favourite books at the best prices!</p>
+    <button>Explore Books</button>
+</div>
+
+<h2 style="text-align:center">Featured Books</h2>
+
+<div class="books">
+
+    <div class="book">
+        <h3>Python Programming</h3>
+        <p>Price: ₹350</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="book">
+        <h3>Web Development</h3>
+        <p>Price: ₹450</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="book">
+        <h3>Java Programming</h3>
+        <p>Price: ₹400</p>
+        <button>Buy Now</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Book World. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+        body {
+            font-family: Arial;
+            background: #eee;
+            margin: 20px;
+        }
+
+        .resume {
+            background: white;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: navy;
+        }
+
+        h2 {
+            color: darkblue;
+            border-bottom: 2px solid blue;
+        }
+
+        .bar {
+            background: lightgray;
+            width: 100%;
+        }
+
+        .skill {
+            background: green;
+            color: white;
+            text-align: right;
+        }
+
+        a {
+            color: blue;
+        }
+    

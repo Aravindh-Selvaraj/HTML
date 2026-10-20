@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<books>
+
+    <book>
+        <bookid>101</bookid>
+        <title>Python Programming</title>
+        <author>John</author>
+        <publisher>ABC Publications</publisher>
+        <edition>1st</edition>
+        <price>500</price>
+    </book>
+
+    <book>
+        <bookid>102</bookid>
+        <title>Java Programming</title>
+        <author>James</author>
+        <publisher>XYZ Publications</publisher>
+        <edition>2nd</edition>
+        <price>600</price>
+    </book>
+
+    <book>
+        <bookid>103</bookid>
+        <title>Web Technology</title>
+        <author>David</author>
+        <publisher>Sun Publications</publisher>
+        <edition>1st</edition>
+        <price>450</price>
+    </book>
+
+    <book>
+        <bookid>104</bookid>
+        <title>Database Management</title>
+        <author>Robert</author>
+        <publisher>ABC Publications</publisher>
+        <edition>3rd</edition>
+        <price>550</price>
+    </book>
+
+    <book>
+        <bookid>105</bookid>
+        <title>Machine Learning</title>
+        <author>Peter</author>
+        <publisher>XYZ Publications</publisher>
+        <edition>2nd</edition>
+        <price>700</price>
+    </book>
+
+</books>

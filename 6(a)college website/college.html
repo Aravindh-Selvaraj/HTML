@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: navy;
+            min-width: 150px;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        h2 {
+            text-align: center;
+            color: navy;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABC College</h1>
+    <p>Knowledge is Power</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+
+    <div class="dropdown">
+        <a href="#faculty">Faculty</a>
+
+        <div class="dropdown-content">
+            <a href="#faculty">Computer Science</a>
+            <a href="#faculty">Mathematics</a>
+            <a href="#faculty">English</a>
+        </div>
+    </div>
+
+    <a href="#events">Events</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to ABC College</h2>
+    <p style="text-align:center;">
+        Our college provides quality education
+        and excellent learning opportunities.
+    </p>
+</section>
+
+<section id="faculty">
+    <h2>Faculty Directory</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Mr. Kumar</h3>
+            <p>Computer Science</p>
+        </div>
+
+        <div class="card">
+            <h3>Mrs. Priya</h3>
+            <p>Mathematics</p>
+        </div>
+
+        <div class="card">
+            <h3>Mr. Ravi</h3>
+            <p>English</p>
+        </div>
+    </div>
+</section>
+
+<section id="events">
+    <h2>College Events</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Symposium</h3>
+            <p>Technical Events</p>
+        </div>
+
+        <div class="card">
+            <h3>Sports Day</h3>
+            <p>Annual Sports</p>
+        </div>
+
+        <div class="card">
+            <h3>Cultural Day</h3>
+            <p>Dance and Music</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>ABC College | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE employees [
+    <!ELEMENT employees (employee+)>
+    <!ELEMENT employee (name, department, address)>
+    <!ATTLIST employee id CDATA #REQUIRED>
+
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+
+    <!ELEMENT address (doorno, street, city, pincode)>
+    <!ELEMENT doorno (#PCDATA)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT pincode (#PCDATA)>
+]>
+
+<employees>
+    <employee id="E101">
+        <name>Arun</name>
+        <department>IT</department>
+        <address>
+            <doorno>10</doorno>
+            <street>Main Street</street>
+            <city>Chennai</city>
+            <pincode>600001</pincode>
+        </address>
+    </employee>
+
+    <employee id="E102">
+        <name>Priya</name>
+        <department>HR</department>
+        <address>
+            <doorno>25</doorno>
+            <street>Gandhi Street</street>
+            <city>Madurai</city>
+            <pincode>625001</pincode>
+        </address>
+    </employee>
+</employees>

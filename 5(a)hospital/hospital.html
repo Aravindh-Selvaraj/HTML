@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC Hospital</title>
+</head>
+<body bgcolor="lightblue">
+
+    <h1 align="center">ABC Multi-Speciality Hospital</h1>
+    <p align="center">Quality Healthcare for Everyone</p>
+
+    <h2>Our Departments</h2>
+    <ul>
+        <li>Cardiology</li>
+        <li>Neurology</li>
+        <li>Orthopaedics</li>
+        <li>Paediatrics</li>
+    </ul>
+
+    <h2>Our Hospital</h2>
+    <img src="hospital.jpg" width="250" height="120"
+         alt="Hospital Image">
+
+    <h2>Doctors and Consultation Timings</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th colspan="4">Doctor Consultation Schedule</th>
+        </tr>
+        <tr>
+            <th>Department</th>
+            <th>Doctor</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Cardiology</td>
+            <td>Dr. Ravi</td>
+            <td>Monday</td>
+            <td>9 AM - 12 PM</td>
+        </tr>
+        <tr>
+            <td>Dr. Kumar</td>
+            <td>Tuesday</td>
+            <td>10 AM - 1 PM</td>
+        </tr>
+        <tr>
+            <td>Neurology</td>
+            <td>Dr. Priya</td>
+            <td>Wednesday</td>
+            <td>9 AM - 1 PM</td>
+        </tr>
+        <tr>
+            <td>Orthopaedics</td>
+            <td>Dr. Arun</td>
+            <td>Thursday</td>
+            <td>10 AM - 2 PM</td>
+        </tr>
+    </table>
+
+    <h2>Book an Appointment</h2>
+
+    <form>
+        Patient Name:
+        <input type="text" name="name" required>
+        <br><br>
+
+        Age:
+        <input type="number" name="age">
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopaedics</option>
+            <option>Paediatrics</option>
+        </select>
+        <br><br>
+
+        Appointment Date:
+        <input type="date" name="date">
+        <br><br>
+
+        <input type="submit" value="Book Appointment">
+        <input type="reset" value="Clear">
+    </form>
+
+</body>
+</html>

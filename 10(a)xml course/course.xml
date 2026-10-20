@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<courses>
+    <course>
+        <code>23MCA101</code>
+        <title>Java Programming</title>
+        <credits>4</credits>
+        <faculty>Mr. Kumar</faculty>
+    </course>
+
+    <course>
+        <code>23MCA102</code>
+        <title>Python Programming</title>
+        <credits>4</credits>
+        <faculty>Mrs. Priya</faculty>
+    </course>
+
+    <course>
+        <code>23MCA103</code>
+        <title>Database Management</title>
+        <credits>3</credits>
+        <faculty>Mr. Ravi</faculty>
+    </course>
+
+    <course>
+        <code>23MCA104</code>
+        <title>Machine Learning</title>
+        <credits>4</credits>
+        <faculty>Mrs. Divya</faculty>
+    </course>
+
+    <course>
+        <code>23MCA105</code>
+        <title>Web Technology</title>
+        <credits>3</credits>
+        <faculty>Mr. Arun</faculty>
+    </course>
+
+    <course>
+        <code>23MCA106</code>
+        <title>Data Structures</title>
+        <credits>4</credits>
+        <faculty>Mrs. Meena</faculty>
+    </course>
+</courses>

@@ -1,0 +1,47 @@
+books {
+    display: block;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+book {
+    display: block;
+    background-color: lightblue;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid navy;
+}
+
+bookid {
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+
+title {
+    display: block;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+author {
+    display: block;
+    color: green;
+}
+
+publisher {
+    display: block;
+    color: purple;
+}
+
+edition {
+    display: block;
+    color: brown;
+}
+
+price {
+    display: block;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="student.css"?>
+
+<students>
+    <student>
+        <rollno>101</rollno>
+        <name>Arun</name>
+        <department>MCA</department>
+        <subject>Java</subject>
+        <marks>85</marks>
+    </student>
+
+    <student>
+        <rollno>102</rollno>
+        <name>Priya</name>
+        <department>MCA</department>
+        <subject>Python</subject>
+        <marks>90</marks>
+    </student>
+
+    <student>
+        <rollno>103</rollno>
+        <name>Kumar</name>
+        <department>MCA</department>
+        <subject>HTML</subject>
+        <marks>80</marks>
+    </student>
+
+    <student>
+        <rollno>104</rollno>
+        <name>Divya</name>
+        <department>MCA</department>
+        <subject>JavaScript</subject>
+        <marks>88</marks>
+    </student>
+
+    <student>
+        <rollno>105</rollno>
+        <name>Ravi</name>
+        <department>MCA</department>
+        <subject>CSS</subject>
+        <marks>92</marks>
+    </student>
+</students>

@@ -1,0 +1,24 @@
+employees {
+    display: block;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+employee {
+    display: block;
+    background-color: lightblue;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid navy;
+}
+
+name, department, address {
+    display: block;
+    margin: 5px;
+    color: darkblue;
+}
+
+doorno, street, city, pincode {
+    display: block;
+    margin-left: 20px;
+}

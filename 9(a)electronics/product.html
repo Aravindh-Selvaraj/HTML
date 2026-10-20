@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Electronics Store</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+}
+
+.card img {
+    width: 150px;
+    height: 120px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: skyblue;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Electronics Store</h1>
+
+<div class="products">
+
+<div class="card">
+<img src="https://placehold.co/150x120?text=Laptop" alt="Laptop">
+<h3>Laptop</h3>
+<p>Price: ₹50,000</p>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/150x120?text=Mobile" alt="Mobile">
+<h3>Mobile</h3>
+<p>Price: ₹20,000</p>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/150x120?text=Tablet" alt="Tablet">
+<h3>Tablet</h3>
+<p>Price: ₹15,000</p>
+</div>
+
+</div>
+
+<h2>Product Comparison</h2>
+
+<table>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>RAM</th>
+<th>Storage</th>
+</tr>
+
+<tr>
+<td>Laptop</td>
+<td>₹50,000</td>
+<td>8 GB</td>
+<td>512 GB</td>
+</tr>
+
+<tr>
+<td>Mobile</td>
+<td>₹20,000</td>
+<td>6 GB</td>
+<td>128 GB</td>
+</tr>
+
+<tr>
+<td>Tablet</td>
+<td>₹15,000</td>
+<td>4 GB</td>
+<td>64 GB</td>
+</tr>
+</table>
+
+</body>
+</html>

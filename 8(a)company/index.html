@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Services Company</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: navy;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .hero {
+            background: lightblue;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid gray;
+        }
+
+        .clients {
+            text-align: center;
+            padding: 20px;
+        }
+
+        form {
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: navy;
+            color: white;
+            border: none;
+        }
+
+        footer {
+            background: navy;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABC IT Solutions</h1>
+</header>
+
+<section class="hero">
+    <h2>Welcome to ABC IT Solutions</h2>
+    <p>We provide the best IT services for your business.</p>
+    <button onclick="location.href='#contact'">
+        Contact Us
+    </button>
+</section>
+
+<h2 style="text-align:center">Our Services</h2>
+
+<section class="services">
+    <div class="box">
+        <h3>Web Development</h3>
+        <p>We create websites.</p>
+    </div>
+
+    <div class="box">
+        <h3>Software Development</h3>
+        <p>We develop software applications.</p>
+    </div>
+
+    <div class="box">
+        <h3>Cloud Services</h3>
+        <p>We provide cloud solutions.</p>
+    </div>
+</section>
+
+<section class="clients">
+    <h2>Our Clients</h2>
+    <span>Google</span> |
+    <span>Microsoft</span> |
+    <span>Amazon</span>
+</section>
+
+<h2 id="contact" style="text-align:center">Contact Us</h2>
+
+<form>
+    <input type="text" placeholder="Your Name"
+           required pattern="[A-Za-z ]+"
+           title="Enter letters only">
+
+    <input type="email" placeholder="Your Email"
+           required>
+
+    <input type="tel" placeholder="Phone Number"
+           pattern="[0-9]{10}"
+           title="Enter 10 digit phone number">
+
+    <textarea placeholder="Your Message"
+              required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+
+<footer>
+    <p>Copyright 2026 ABC IT Solutions</p>
+</footer>
+
+</body>
+</html>
